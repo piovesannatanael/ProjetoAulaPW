@@ -1,0 +1,44 @@
+#bodyPI{
+    background-color: #0096C7;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+#containerPI{
+
+    height: 100%;
+}
+
+
+#buttonBar{
+    margin: 5px;
+    background-color: #001233;
+    padding: 0;
+    border-color: #001233;
+    border-radius: 15px;
+    margin-top: 3%;
+}
+
+#buttonBar a{
+    color: #00B4D8;
+    font-weight: bold;
+}
+#buttonBar a:hover{
+
+    color: #001233;
+    transition: all 0.2s;
+    background-color: #00B4D8 ;
+    border-color: #00B4D8;
+
+    border-radius: 15px;
+}
+
+.list-group-item{
+    margin: 1%;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #48CAE4;
+    background-color: #001233;
+}

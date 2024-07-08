@@ -1,0 +1,17 @@
+nav{
+  background-color: #023E7D;
+
+}
+
+
+
+#linksNav1, #linksNav2, #linksNav3 {
+  color: #48CAE4;
+  padding: 10px;
+  font-weight: bold;
+}
+#linksNav1:hover, #linksNav2:hover, #linksNav3:hover{
+  color: #001233;
+  transition: all 0.5s;
+  transform: rotate3d(1, 1, 1, 10grad);
+}

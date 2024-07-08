@@ -1,0 +1,51 @@
+img{
+  width: 200px;
+}
+#banner-conts{
+}
+.col-sm-3{
+  margin-top: 15%;
+  color: #001233;
+}
+.col-sm-9{
+
+}
+
+#bodyBar{
+  background-color: #0096C7;
+}
+.Logo-bar{
+  margin-top: 15%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  zoom: 2.5;
+}
+.container{
+  height: 100vh;
+  background-color: #0096C7;
+}
+
+#buttonBar{
+  margin: 5px;
+  background-color: #001233;
+  padding: 0;
+  border-color: #001233;
+  border-radius: 15px;
+}
+
+#buttonBar a{
+  color: #00B4D8;
+  font-weight: bold;
+}
+#buttonBar a:hover{
+
+  color: #001233;
+  transition: all 0.2s;
+  background-color: #00B4D8 ;
+  border-color: #00B4D8;
+
+  border-radius: 15px;
+}

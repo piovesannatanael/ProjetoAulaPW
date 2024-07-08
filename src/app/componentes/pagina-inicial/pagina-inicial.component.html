@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="./pagina-inicial.component.css">
+<body id="bodyPI">
+<div id="containerPI" class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h1 class="text-center mb-4">
+                Gerenciamento de estoque Bar Container
+            </h1>
+            <p class="lead text-center">
+                Bem-vindo ao Sistema de Gerenciamento de Estoque do Bar Container!
+                Este sistema foi desenvolvido para organizar e contabilizar o número de itens armazenados!
+            </p>
+            <p class="text-center">
+                Utilize este sistema para:
+            </p>
+            <ul class="list-group">
+                <li class="list-group-item">Solicitar novos itens para entrega</li>
+                <li class="list-group-item">Visualizar situação dos itens cadastrados</li>
+                <li class="list-group-item">Visualizar estoque</li>
+            </ul>
+            <p class="text-center mt-4">
+            </p>
+        </div>
+    </div>
+    <button id="buttonBar" class="btn btn-success">
+        <a class="nav-link" [routerLink]="'/visualizar-tarefas'">
+            Acessar Sistema de Estoque
+        </a>
+    </button>
+</div>
+</body>
